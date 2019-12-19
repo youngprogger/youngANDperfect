@@ -1,0 +1,17 @@
+C:\Users\hatiko\source\repos\BookingApplication\ManagerApp\bin\Debug\netcoreapp3.0\ManagerApp.exe
+C:\Users\hatiko\source\repos\BookingApplication\ManagerApp\bin\Debug\netcoreapp3.0\ManagerApp.deps.json
+C:\Users\hatiko\source\repos\BookingApplication\ManagerApp\bin\Debug\netcoreapp3.0\ManagerApp.runtimeconfig.json
+C:\Users\hatiko\source\repos\BookingApplication\ManagerApp\bin\Debug\netcoreapp3.0\ManagerApp.runtimeconfig.dev.json
+C:\Users\hatiko\source\repos\BookingApplication\ManagerApp\bin\Debug\netcoreapp3.0\ManagerApp.dll
+C:\Users\hatiko\source\repos\BookingApplication\ManagerApp\bin\Debug\netcoreapp3.0\ManagerApp.pdb
+C:\Users\hatiko\source\repos\BookingApplication\ManagerApp\obj\Debug\netcoreapp3.0\ManagerApp.csprojAssemblyReference.cache
+C:\Users\hatiko\source\repos\BookingApplication\ManagerApp\obj\Debug\netcoreapp3.0\MainWindow.g.cs
+C:\Users\hatiko\source\repos\BookingApplication\ManagerApp\obj\Debug\netcoreapp3.0\App.g.cs
+C:\Users\hatiko\source\repos\BookingApplication\ManagerApp\obj\Debug\netcoreapp3.0\ManagerApp_MarkupCompile.cache
+C:\Users\hatiko\source\repos\BookingApplication\ManagerApp\obj\Debug\netcoreapp3.0\ManagerApp_MarkupCompile.lref
+C:\Users\hatiko\source\repos\BookingApplication\ManagerApp\obj\Debug\netcoreapp3.0\MainWindow.baml
+C:\Users\hatiko\source\repos\BookingApplication\ManagerApp\obj\Debug\netcoreapp3.0\ManagerApp.g.resources
+C:\Users\hatiko\source\repos\BookingApplication\ManagerApp\obj\Debug\netcoreapp3.0\ManagerApp.AssemblyInfoInputs.cache
+C:\Users\hatiko\source\repos\BookingApplication\ManagerApp\obj\Debug\netcoreapp3.0\ManagerApp.AssemblyInfo.cs
+C:\Users\hatiko\source\repos\BookingApplication\ManagerApp\obj\Debug\netcoreapp3.0\ManagerApp.dll
+C:\Users\hatiko\source\repos\BookingApplication\ManagerApp\obj\Debug\netcoreapp3.0\ManagerApp.pdb

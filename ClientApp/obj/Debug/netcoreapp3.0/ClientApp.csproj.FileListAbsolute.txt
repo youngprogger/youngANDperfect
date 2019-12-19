@@ -1,0 +1,11 @@
+C:\Users\hatiko\source\repos\BookingApplication\ClientApp\obj\Debug\netcoreapp3.0\ClientApp.csprojAssemblyReference.cache
+C:\Users\hatiko\source\repos\BookingApplication\ClientApp\obj\Debug\netcoreapp3.0\Booking.g.cs
+C:\Users\hatiko\source\repos\BookingApplication\ClientApp\obj\Debug\netcoreapp3.0\Client.g.cs
+C:\Users\hatiko\source\repos\BookingApplication\ClientApp\obj\Debug\netcoreapp3.0\EditProfile.g.cs
+C:\Users\hatiko\source\repos\BookingApplication\ClientApp\obj\Debug\netcoreapp3.0\MainWindow.g.cs
+C:\Users\hatiko\source\repos\BookingApplication\ClientApp\obj\Debug\netcoreapp3.0\Registration.g.cs
+C:\Users\hatiko\source\repos\BookingApplication\ClientApp\obj\Debug\netcoreapp3.0\SignIn.g.cs
+C:\Users\hatiko\source\repos\BookingApplication\ClientApp\obj\Debug\netcoreapp3.0\App.g.cs
+C:\Users\hatiko\source\repos\BookingApplication\ClientApp\obj\Debug\netcoreapp3.0\ClientApp_MarkupCompile.cache
+C:\Users\hatiko\source\repos\BookingApplication\ClientApp\obj\Debug\netcoreapp3.0\ClientApp_MarkupCompile.lref
+C:\Users\hatiko\source\repos\BookingApplication\ClientApp\obj\Debug\netcoreapp3.0\Search.g.cs

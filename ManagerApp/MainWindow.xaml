@@ -1,0 +1,32 @@
+﻿<Window x:Class="ManagerApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ManagerApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="450" Background="Black">
+    <Grid>
+        <Grid.RowDefinitions>
+        <RowDefinition/>
+        <RowDefinition/>
+        <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock  Grid.Row="0" Text="Booking" Margin="0,0,80,0" FontSize="28" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="White" FontWeight="Black"></TextBlock>
+        <TextBlock  Grid.Row="0" Text=".com" FontSize="28" HorizontalAlignment="Center" Foreground="DeepSkyBlue"  FontWeight="Black" VerticalAlignment="Top" Margin="100,0,0,20"></TextBlock>
+        <TextBlock Grid.Row="0" FontSize="40" HorizontalAlignment="Center" Margin="0,50,0,0" Foreground="DeepSkyBlue" Text="💻" ></TextBlock>
+        <TextBlock Grid.Row="0" Text="Manager" FontSize="25" Foreground="White" Margin="0,0,0,50" FontWeight="DemiBold" HorizontalAlignment="Center" VerticalAlignment="Bottom"></TextBlock>
+        <TextBlock Grid.Row="1" Text="Total Gain" FontSize="25" Foreground="White" Margin="0,0,0,0" FontWeight="DemiBold" HorizontalAlignment="Left" VerticalAlignment="Top"></TextBlock>
+        <TextBlock Grid.Row="1" Text=" All Users" FontSize="25" Foreground="White" Margin="0,50,0,0" FontWeight="DemiBold" HorizontalAlignment="Left" VerticalAlignment="Top"></TextBlock>
+        <ListBox Grid.Row="1" Name="Users_List" Height="40" Foreground="DeepSkyBlue" BorderBrush="DeepSkyBlue" Width="300" Margin="0,50,0,0" VerticalAlignment="Top" HorizontalAlignment="Right" SelectionChanged="Users_List_SelectionChanged"></ListBox>
+        <TextBox Grid.Row="1" BorderBrush="SkyBlue" Height="40" Width="300" Name="Total_Gain" VerticalAlignment="Top" Margin="0,0,0,0" HorizontalAlignment="Right" ></TextBox>
+        <TextBlock Grid.Row="1" Text="Busy Hotels" FontSize="25" Foreground="White" Margin="0,50,0,60" FontWeight="DemiBold" HorizontalAlignment="Left" VerticalAlignment="Bottom"></TextBlock>
+        <ListBox Grid.Row="1" Name="BusyHotels_List" Height="40" Foreground="DeepSkyBlue" BorderBrush="DeepSkyBlue" Width="300" Margin="0,50,0,56" VerticalAlignment="Bottom" HorizontalAlignment="Right" SelectionChanged="BusyHotels_List_SelectionChanged"></ListBox>
+        <TextBlock Grid.Row="1" Text="All Hotels" FontSize="25" Foreground="White" Margin="0,50,0,20" FontWeight="DemiBold" HorizontalAlignment="Left" VerticalAlignment="Bottom"></TextBlock>
+        <ListBox Grid.Row="1" Name="AllHotels_List" Height="40" Foreground="DeepSkyBlue" BorderBrush="DeepSkyBlue" Width="300" Margin="0,50,0,7" VerticalAlignment="Bottom" HorizontalAlignment="Right" SelectionChanged="AllHotels_List_SelectionChanged"></ListBox>
+        <TextBlock Grid.Row="2" FontSize="50" HorizontalAlignment="Center" Margin="0,127,370,0" Foreground="DeepSkyBlue" Text="🔄" ></TextBlock>
+        <Button Grid.Row="2" Background="Black" BorderBrush="DeepSkyBlue"  FontSize="35" Foreground="DeepSkyBlue" Content="Refresh" Height="60" Width="370" HorizontalAlignment="Right" VerticalAlignment="Bottom"></Button>
+
+
+    </Grid>
+</Window>

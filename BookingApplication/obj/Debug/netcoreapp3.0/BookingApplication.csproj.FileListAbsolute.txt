@@ -1,0 +1,14 @@
+C:\Users\hatiko\source\repos\BookingApplication\BookingApplication\obj\Debug\netcoreapp3.0\BookingApplication.AssemblyInfoInputs.cache
+C:\Users\hatiko\source\repos\BookingApplication\BookingApplication\obj\Debug\netcoreapp3.0\BookingApplication.AssemblyInfo.cs
+C:\Users\hatiko\source\repos\BookingApplication\BookingApplication\bin\Debug\netcoreapp3.0\BookingApplication.exe
+C:\Users\hatiko\source\repos\BookingApplication\BookingApplication\bin\Debug\netcoreapp3.0\BookingApplication.deps.json
+C:\Users\hatiko\source\repos\BookingApplication\BookingApplication\bin\Debug\netcoreapp3.0\BookingApplication.runtimeconfig.json
+C:\Users\hatiko\source\repos\BookingApplication\BookingApplication\bin\Debug\netcoreapp3.0\BookingApplication.runtimeconfig.dev.json
+C:\Users\hatiko\source\repos\BookingApplication\BookingApplication\bin\Debug\netcoreapp3.0\BookingApplication.dll
+C:\Users\hatiko\source\repos\BookingApplication\BookingApplication\bin\Debug\netcoreapp3.0\BookingApplication.pdb
+C:\Users\hatiko\source\repos\BookingApplication\BookingApplication\bin\Debug\netcoreapp3.0\DocumentFormat.OpenXml.dll
+C:\Users\hatiko\source\repos\BookingApplication\BookingApplication\bin\Debug\netcoreapp3.0\System.IO.Packaging.dll
+C:\Users\hatiko\source\repos\BookingApplication\BookingApplication\obj\Debug\netcoreapp3.0\BookingApplication.csproj.CopyComplete
+C:\Users\hatiko\source\repos\BookingApplication\BookingApplication\obj\Debug\netcoreapp3.0\BookingApplication.dll
+C:\Users\hatiko\source\repos\BookingApplication\BookingApplication\obj\Debug\netcoreapp3.0\BookingApplication.pdb
+C:\Users\hatiko\source\repos\BookingApplication\BookingApplication\obj\Debug\netcoreapp3.0\BookingApplication.csprojAssemblyReference.cache

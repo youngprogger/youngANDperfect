@@ -1,0 +1,18 @@
+﻿10
+1;32400; The Ritz-Carlton;Russia;Moscow;*****;T; Hotel
+2;49680; Four Seasons;Russia;Moscow;*****; T; Hotel
+3;25000; Ararat Park Hyatt;Russia; Moscow;*****; T; Hotel
+4;23760;Lotte;Russia; Moscow;*****;T; Hotel
+5;27144; The  Oberoi Udaivilas;India;Udaipur;*****;T; Hotel
+6;41290; Baros Maldives;Maldivas;Baros;*****;T;Villa
+7;22712; Armani Hotel;UAE;Dubai; *****;T; Hotel
+8;5000; Trullo Edera;Italia;Venesse;****;F; Apartaments
+9;17429; Splendida Casa;Italia; Venesse;*****;T; Apartaments
+10;2078; HomeHotel;Russia;Nizhenya Novgorod;***;F;Hostel
+2
+1;Vlad;Maslennikov; 25.01.2000 00:00:00; vlad.maslennikov.00@mail.ru;89223799639;vlad250100
+2;Zhenya;Morev; 20.01.2000 16:00:01; morevzhenya20@mail.ru; 89858516867;zhenya20
+3
+1;1;Cash;12.09.2019 10:00:00; 20.09.2019 23:00:00
+3;1; Online; 13.10.2019 11:00:00; 23.11.2019 00:00:00
+6;2; Online; 18.12.2019 23:00:00; 20.01.2021 23:00:01

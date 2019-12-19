@@ -1,0 +1,33 @@
+﻿<Window x:Class="ClientApp.SignIn"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientApp"
+        mc:Ignorable="d"
+        Title="SignIn" Height="600" Width="450" Background="Black">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock  Grid.Row="0" Text="Booking" Margin="0,0,80,0" FontSize="28" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="White" FontWeight="Black"></TextBlock>
+        <TextBlock  Grid.Row="0" Text=".com" FontSize="28" HorizontalAlignment="Center" Foreground="DeepSkyBlue"  FontWeight="Black" VerticalAlignment="Top" Margin="100,0,0,20"></TextBlock>
+        <TextBlock Grid.Row="1" Foreground="White" Text="Let's get started" FontSize="25" VerticalAlignment="Top" HorizontalAlignment="Center" Height="40" FontWeight="DemiBold" ></TextBlock>
+        <TextBlock Grid.Row="1" Foreground="White" Text="Sign in to easily manage your current bookings!" FontSize="19" VerticalAlignment="Center" HorizontalAlignment="Center" Height="40" FontWeight="DemiBold" ></TextBlock>
+        <TextBlock Grid.Row="2" Foreground="White" Text="Sign In" FontSize="25" HorizontalAlignment="Center" FontWeight="Bold"></TextBlock>
+        <TextBlock Grid.Row="2" Foreground="White" Text="Login" FontSize="22" VerticalAlignment="Center" Margin="20,0,0,0" FontWeight="DemiBold"></TextBlock>
+        <TextBlock Grid.Row="2" Foreground="White"  Text="Password" FontSize="22" VerticalAlignment="Bottom" Margin="20,0,0,0" FontWeight="DemiBold" ></TextBlock>
+        <TextBox Grid.Row="2" BorderBrush="DeepSkyBlue" Name="Login" VerticalAlignment="Center" HorizontalAlignment="Right" Width="320" Height="30"></TextBox>
+        <PasswordBox Grid.Row="2" BorderBrush="DeepSkyBlue" Name="Password" VerticalAlignment="Center" HorizontalAlignment="Right" Width="320" Height="30" Margin="0,78,0,0"></PasswordBox>
+        <TextBlock Grid.Row="3" Foreground="White" Text="⟵ or ⟶ " Margin="0,0,0,10" HorizontalAlignment="Center" FontSize="25" FontWeight="Bold"></TextBlock>
+        <TextBlock Grid.Row="3" Foreground="White" Text="Registration" Margin="0,0,0,10" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25" FontWeight="Bold"></TextBlock>
+        <Button Grid.Row="3" Background="Black" BorderBrush="DeepSkyBlue" Foreground="DeepSkyBlue" Content="Create your account" FontSize="23" Width="250" Height="35" Margin="0,65,0,0" Name="Registration_Button" Click="Registration_Button_Click"></Button>
+        <Button Grid.Row="4" Background="Black" BorderBrush="DeepSkyBlue" Foreground="DeepSkyBlue" Content="🔍Seach" Width="120" FontSize="23" Margin="0,50,320,0" Name="Search_Button" Click="Search_Button_Click"></Button>
+        <Button Grid.Row="4" Background="Black" BorderBrush="DeepSkyBlue" Foreground="DeepSkyBlue"  Content="💼Bookings" FontSize="23" Width="140" Margin="0,50,0,0" Name="Bookings_Button" Click="Bookings_Button_Click"></Button>
+        <Button Grid.Row="4" Background="Black" BorderBrush="DeepSkyBlue" Foreground="DeepSkyBlue" Content="🙍‍♂Sign in" FontSize="23" Width="120" Margin="320,50,0,0" Name="SingIn_Button" Click="SingIn_Button_Click"></Button>
+    </Grid>
+</Window>

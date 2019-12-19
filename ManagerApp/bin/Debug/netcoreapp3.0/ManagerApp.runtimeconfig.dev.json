@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\hatiko\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\hatiko\\.nuget\\packages"
+    ]
+  }
+}
