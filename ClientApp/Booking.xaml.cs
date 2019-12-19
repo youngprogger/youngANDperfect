@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BookingApplication;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -17,30 +18,35 @@ namespace ClientApp
     /// </summary>
     public partial class Booking : Window
     {
-        public Booking()
+        BookingManager _bm;
+        public Booking(BookingManager bookingManager)
         {
             InitializeComponent();
+            _bm = bookingManager;
         }
 
         private void Search_Button_Click(object sender, RoutedEventArgs e)
-        {
+        { 
+            Hide();
+            var mainWindow = new MainWindow();
+            mainWindow.Show();
             Close();
         }
 
         private void SingIn_Button_Click(object sender, RoutedEventArgs e)
         {
             Hide();
-            var signInWin = new SignIn();
-            signInWin.ShowDialog();
-            Show();
+            var signInWin = new SignIn(_bm);
+            signInWin.Show();
+            Close();
         }
 
         private void _SignIn_Button_Click(object sender, RoutedEventArgs e)
         {
             Hide();
-            var signInWin = new SignIn();
-            signInWin.ShowDialog();
-            Show();
+            var signInWin = new SignIn(_bm);
+            signInWin.Show();
+            Close();
         }
     }
 }

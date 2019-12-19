@@ -37,7 +37,7 @@ namespace ClientApp
             if (Choose_City.SelectedItem != null && Choose_Country.SelectedItem != null && Enter_Arrive.SelectedDate != null && Enter_Departure.SelectedDate != null)
             {
                 Hide();
-                var search = new Search(bookingManager, country, city, Enter_Arrive.SelectedDate, Enter_Departure.SelectedDate);
+                var search = new Search(bookingManager, country, city, Enter_Arrive.SelectedDate.Value, Enter_Departure.SelectedDate.Value);
                 search.ShowDialog();
                 Show();
             }
@@ -50,7 +50,7 @@ namespace ClientApp
         private void Bookings_Button_Click(object sender, RoutedEventArgs e)
         {
             Hide();
-            var booking = new Booking();
+            var booking = new Booking(bookingManager);
             booking.ShowDialog();
             Show();
         }

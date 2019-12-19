@@ -42,27 +42,28 @@ namespace ClientApp
             Price.Text = (hotel.Price * Convert.ToDecimal((endDate - startDate).TotalDays)).ToString();
             Rating.Text = hotel.Rating.ToString();
             IsAllInclusive.Text = hotel.Rating.ToString();
+            TypeOfHotel.Text = hotel.TypeOfHotel.ToString();
         }
 
         private void Search_Button_Click(object sender, RoutedEventArgs e)
         {
-
+            Close();
         }
 
         private void Bookings_Button_Click(object sender, RoutedEventArgs e)
         {
-
+            Close();
         }
 
         private void SingIn_Button_Click(object sender, RoutedEventArgs e)
         {
-
+            Close();
         }
 
 
         private void Book_Button_Click(object sender, RoutedEventArgs e)
         {
-
+            Close();
         }
     }
 }

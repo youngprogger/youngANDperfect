@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ClientApp"
         mc:Ignorable="d"
-        Title="SignIn" Height="600" Width="450" Background="Black">
+        Title="SignIn" Height="600" Width="450"  Background="#222431">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -25,9 +25,9 @@
         <PasswordBox Grid.Row="2" BorderBrush="DeepSkyBlue" Name="Password" VerticalAlignment="Center" HorizontalAlignment="Right" Width="320" Height="30" Margin="0,78,0,0"></PasswordBox>
         <TextBlock Grid.Row="3" Foreground="White" Text="⟵ or ⟶ " Margin="0,0,0,10" HorizontalAlignment="Center" FontSize="25" FontWeight="Bold"></TextBlock>
         <TextBlock Grid.Row="3" Foreground="White" Text="Registration" Margin="0,0,0,10" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25" FontWeight="Bold"></TextBlock>
-        <Button Grid.Row="3" Background="Black" BorderBrush="DeepSkyBlue" Foreground="DeepSkyBlue" Content="Create your account" FontSize="23" Width="250" Height="35" Margin="0,65,0,0" Name="Registration_Button" Click="Registration_Button_Click"></Button>
-        <Button Grid.Row="4" Background="Black" BorderBrush="DeepSkyBlue" Foreground="DeepSkyBlue" Content="🔍Seach" Width="120" FontSize="23" Margin="0,50,320,0" Name="Search_Button" Click="Search_Button_Click"></Button>
-        <Button Grid.Row="4" Background="Black" BorderBrush="DeepSkyBlue" Foreground="DeepSkyBlue"  Content="💼Bookings" FontSize="23" Width="140" Margin="0,50,0,0" Name="Bookings_Button" Click="Bookings_Button_Click"></Button>
-        <Button Grid.Row="4" Background="Black" BorderBrush="DeepSkyBlue" Foreground="DeepSkyBlue" Content="🙍‍♂Sign in" FontSize="23" Width="120" Margin="320,50,0,0" Name="SingIn_Button" Click="SingIn_Button_Click"></Button>
+        <Button Grid.Row="3"  Background="#222431" BorderBrush="DeepSkyBlue" Foreground="DeepSkyBlue" Content="Create your account" FontSize="23" Width="250" Height="35" Margin="0,65,0,0" Name="Registration_Button" Click="Registration_Button_Click"></Button>
+        <Button Grid.Row="4"  Background="#222431" BorderBrush="DeepSkyBlue" Foreground="DeepSkyBlue" Content="🔍Seach" Width="120" FontSize="23" Margin="0,50,320,0" Name="Search_Button" Click="Search_Button_Click"></Button>
+        <Button Grid.Row="4"  Background="#222431" BorderBrush="DeepSkyBlue" Foreground="DeepSkyBlue"  Content="💼Bookings" FontSize="23" Width="140" Margin="0,50,0,0" Name="Bookings_Button" Click="Bookings_Button_Click"></Button>
+        <Button Grid.Row="4"  Background="#222431" BorderBrush="DeepSkyBlue" Foreground="DeepSkyBlue" Content="🙍‍♂Sign in" FontSize="23" Width="120" Margin="320,50,0,0" Name="SingIn_Button" Click="SingIn_Button_Click"></Button>
     </Grid>
 </Window>

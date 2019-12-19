@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ClientApp"
         mc:Ignorable="d"
-        Title="Registration" Height="600" Width="450" Background="Black">
+        Title="Registration" Height="600" Width="450" Background="#222431">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="100"/>
@@ -37,9 +37,10 @@
         <TextBox Grid.Row="5" BorderBrush="DeepSkyBlue" Name="Email" Width="300" Height="35" VerticalAlignment="Top" HorizontalAlignment="Right"></TextBox>
         <TextBox Grid.Row="6" BorderBrush="DeepSkyBlue" Name="Login" Width="300" Height="35" VerticalAlignment="Top" HorizontalAlignment="Right"></TextBox>
         <TextBox Grid.Row="7" BorderBrush="DeepSkyBlue" Name="Password" Width="300" Height="35" VerticalAlignment="Top" HorizontalAlignment="Right"></TextBox>
-        <Button Grid.Row="8" Width="400"  BorderBrush="DeepSkyBlue" Content="Enter✈" FontSize="23" FontWeight="Bold" Foreground="DeepSkyBlue" Background="Black" Name="Enter_Button" Click="Enter_Button_Click"></Button>
-        <Button Grid.Row="9"  BorderBrush="DeepSkyBlue" Foreground="DeepSkyBlue" Background="Black" Content="🔍Seach" Width="120" FontSize="23" Margin="0,25,320,0" Name="Search_Button" Click="Search_Button_Click"></Button>
-        <Button Grid.Row="9" BorderBrush="DeepSkyBlue" Foreground="DeepSkyBlue" Background="Black" Content="💼Bookings" FontSize="23" Width="140" Margin="0,25,0,0" Name="Bookings_Button" Click="Bookings_Button_Click"></Button>
-        <Button Grid.Row="9" BorderBrush="DeepSkyBlue" Foreground="DeepSkyBlue" Background="Black" Content="🙍‍♂Sign in" FontSize="23" Width="120" Margin="320,25,0,0" Name="SingIn_Button" Click="SingIn_Button_Click"></Button>
+        <Button Grid.Row="8" Width="400" BorderThickness="2" BorderBrush="DeepSkyBlue" Content="Enter✈" FontSize="23" FontWeight="Bold" Foreground="DeepSkyBlue" Background="
+#222431" Name="Enter_Button" Click="Enter_Button_Click"></Button>
+        <Button Grid.Row="9"  BorderBrush="DeepSkyBlue" BorderThickness="2" Foreground="DeepSkyBlue" Background="#222431" Content="🔍Seach" Width="120" FontSize="23" Margin="0,25,320,0" Name="Search_Button" Click="Search_Button_Click"></Button>
+        <Button Grid.Row="9" BorderBrush="DeepSkyBlue" BorderThickness="2" Foreground="DeepSkyBlue" Background="#222431" Content="💼Bookings" FontSize="23" Width="140" Margin="0,25,0,0" Name="Bookings_Button" Click="Bookings_Button_Click"></Button>
+        <Button Grid.Row="9" BorderBrush="DeepSkyBlue" BorderThickness="2" Foreground="DeepSkyBlue" Background="#222431" Content="🙍‍♂Sign in" FontSize="23" Width="120" Margin="320,25,0,0" Name="SingIn_Button" Click="SingIn_Button_Click"></Button>
     </Grid>
 </Window>

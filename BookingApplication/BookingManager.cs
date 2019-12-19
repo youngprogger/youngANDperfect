@@ -62,5 +62,6 @@ namespace BookingApplication
         public City GetCityByNameAndCountry(int CountryId, string CityName) => Repository.GetAllCities().Find(c => c.Name == CityName && c.CountryId == CountryId);
         public List<Hotel> GetHotelsByCityAndCountry(int CountryId, int CityId) => Repository.GetAllHotels().Where(h => h.CountryId == CountryId && h.CityId == CityId).ToList();
         public Hotel GetHotelByCityCountryName(int CityId, int CountryId, string Name) => Repository.GetAllHotels().Find(h => h.CityId == CityId && h.CountryId == CountryId && h.Name == Name);
+        public List<Accommodation> GetAllAccomodationsByUser(int UserId) => Repository.GetAllAccommodations().Where(a => a.UserId == UserId).ToList();
     }
 }
