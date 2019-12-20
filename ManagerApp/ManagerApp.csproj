@@ -6,4 +6,9 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BookingApplication\BookingApplication.csproj" />
+    <ProjectReference Include="..\ClientApp\ClientApp.csproj" />
+  </ItemGroup>
+
 </Project>

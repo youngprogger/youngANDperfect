@@ -28,6 +28,6 @@
         <Button Grid.Row="3"  Background="#222431" BorderBrush="DeepSkyBlue" Foreground="DeepSkyBlue" Content="Create your account" FontSize="23" Width="250" Height="35" Margin="0,65,0,0" Name="Registration_Button" Click="Registration_Button_Click"></Button>
         <Button Grid.Row="4"  Background="#222431" BorderBrush="DeepSkyBlue" Foreground="DeepSkyBlue" Content="🔍Seach" Width="120" FontSize="23" Margin="0,50,320,0" Name="Search_Button" Click="Search_Button_Click"></Button>
         <Button Grid.Row="4"  Background="#222431" BorderBrush="DeepSkyBlue" Foreground="DeepSkyBlue"  Content="💼Bookings" FontSize="23" Width="140" Margin="0,50,0,0" Name="Bookings_Button" Click="Bookings_Button_Click"></Button>
-        <Button Grid.Row="4"  Background="#222431" BorderBrush="DeepSkyBlue" Foreground="DeepSkyBlue" Content="🙍‍♂Sign in" FontSize="23" Width="120" Margin="320,50,0,0" Name="SingIn_Button" Click="SingIn_Button_Click"></Button>
+        <Button Grid.Row="4"  Background="#222431" BorderBrush="DeepSkyBlue" Foreground="DeepSkyBlue" Content="🙍‍♂Sign in" FontSize="23" Width="120" Margin="320,50,0,0" Name="SignIn_Button" Click="SignIn_Button_Click"></Button>
     </Grid>
 </Window>

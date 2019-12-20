@@ -25,11 +25,14 @@ namespace ClientApp
         BookingManager bookingManager;
         Country country;
         City city;
-        public MainWindow()
-        { 
+        User user;
+        public MainWindow(BookingManager bookingManager, User user)
+        {
             InitializeComponent();
-            bookingManager = new BookingManager();
-            Choose_Country.ItemsSource = bookingManager.GetAllCountries().Select(c => c.Name);
+            this.user = user;
+            this.bookingManager = bookingManager;
+            var countries = bookingManager.GetAllCountries().Select(c => c.Name);
+            Choose_Country.ItemsSource = countries;
         }
 
         private void Search_Button_Click(object sender, RoutedEventArgs e)
@@ -37,9 +40,9 @@ namespace ClientApp
             if (Choose_City.SelectedItem != null && Choose_Country.SelectedItem != null && Enter_Arrive.SelectedDate != null && Enter_Departure.SelectedDate != null)
             {
                 Hide();
-                var search = new Search(bookingManager, country, city, Enter_Arrive.SelectedDate.Value, Enter_Departure.SelectedDate.Value);
-                search.ShowDialog();
-                Show();
+                var search = new Search(bookingManager, country, city, Enter_Arrive.SelectedDate.Value, Enter_Departure.SelectedDate.Value, user);
+                search.Show();
+                Close();
             }
             else
             {
@@ -58,7 +61,7 @@ namespace ClientApp
         private void SingIn_Button_Click(object sender, RoutedEventArgs e)
         {
             Hide();
-            var signInWin = new SignIn(bookingManager);
+            var signInWin = new SignIn();
             signInWin.ShowDialog();
             Show();
         }

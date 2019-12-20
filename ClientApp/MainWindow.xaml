@@ -20,15 +20,15 @@
         <TextBlock  Grid.Row="0" Text=".com" FontSize="28" HorizontalAlignment="Center" Foreground="DeepSkyBlue"  FontWeight="Black" VerticalAlignment="Top" Margin="100,0,0,20"></TextBlock>
         <TextBlock Grid.Row="1" Text="Search" FontSize="23" HorizontalAlignment="Center" Foreground="White" FontWeight="Black" VerticalAlignment="Top" Margin="0,0,0,20"></TextBlock>
         <TextBlock Grid.Row="1" Text="Destination/property name" FontSize="20" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold" VerticalAlignment="Bottom" Margin="0,0,0,35"></TextBlock>
-        <ComboBox Grid.Row="2" Height="35" VerticalAlignment="Top" BorderBrush="DeepSkyBlue" Margin="180,0,0,0" Foreground="DarkOrange"  FontSize="35" Width="Auto" Name="Choose_Country" SelectionChanged="Choose_Country_SelectionChanged"></ComboBox>
-        <ComboBox Grid.Row="2" Height="35" VerticalAlignment="Bottom" BorderBrush="DeepSkyBlue" Margin="180,0,0,0" Foreground="DarkOrange"  FontSize="35" Width="Auto" Name="Choose_City" SelectionChanged="Choose_City_SelectionChanged"></ComboBox>
+        <ComboBox Grid.Row="2" Height="47" VerticalAlignment="Top" BorderBrush="DeepSkyBlue" Margin="180,0,0,0" Foreground="DarkOrange"  FontSize="35" Width="Auto" Name="Choose_Country" SelectionChanged="Choose_Country_SelectionChanged"></ComboBox>
+        <ComboBox Grid.Row="2" Height="47" VerticalAlignment="Bottom" BorderBrush="DeepSkyBlue" Margin="180,0,0,0" Foreground="DarkOrange"  FontSize="35" Width="Auto" Name="Choose_City" SelectionChanged="Choose_City_SelectionChanged"></ComboBox>
         <Button Grid.Row="5"  Background="#222431" Foreground="DeepSkyBlue"  BorderBrush="DeepSkyBlue" Content="🔍Seach" Width="120" FontSize="23" Margin="0,50,320,0" Name="Search_Button" Click="Search_Button_Click"></Button>
         <Button Grid.Row="5"  Background="#222431" Foreground="DeepSkyBlue"  BorderBrush="DeepSkyBlue"   Content="💼Bookings" FontSize="23" Width="140" Margin="0,50,0,0" Name="Bookings_Button" Click="Bookings_Button_Click"></Button>
         <Button Grid.Row="5"  Background="#222431" BorderBrush="DeepSkyBlue"  Foreground="DeepSkyBlue" Content="🙍‍♂Sign in" FontSize="23" Width="120" Margin="320,50,0,0" Name="SingIn_Button" Click="SingIn_Button_Click"></Button>
-        <DatePicker Grid.Row="3" VerticalAlignment="Center" FontSize="25" Margin="250,0,0,0" Foreground="Black" Name="Enter_Arrive"></DatePicker>
+        <DatePicker Grid.Row="3" VerticalAlignment="Center" Width="200" Height="42" FontSize="25" HorizontalAlignment="Right" Name="Enter_Arrive"></DatePicker>
         <TextBlock Grid.Row="3" FontWeight="DemiBold" Foreground="White" VerticalAlignment="Center" Text=" ChooseDateOfArrive" FontSize="21" Margin="0,0,0,0" ></TextBlock>
         <TextBlock Grid.Row="4" FontWeight="DemiBold" Foreground="White" VerticalAlignment="Center" Text=" ChooseDateOfDeparture" FontSize="21" Margin="0,0,0,0" ></TextBlock>
-        <DatePicker Grid.Row="4" VerticalAlignment="Center" FontSize="25" Margin="250,0,0,0" Name="Enter_Departure"></DatePicker>
+        <DatePicker Grid.Row="4" Height="42" VerticalAlignment="Center" FontSize="25" Margin="250,0,0,0" Name="Enter_Departure"></DatePicker>
         <TextBlock Grid.Row="2" FontSize="21" Foreground="White" Margin="10,0,0,0" VerticalAlignment="Top" FontWeight="DemiBold"  Text="Choose Country"></TextBlock>
         <TextBlock Grid.Row="2" FontSize="21" Foreground="White" Margin="10,0,0,0" VerticalAlignment="Bottom" FontWeight="DemiBold"  Text="Choose City"></TextBlock>
 

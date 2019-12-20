@@ -43,7 +43,7 @@ namespace ClientApp
         private void Search_Button_Click(object sender, RoutedEventArgs e)
         {
             Hide();
-            var mainWindow = new MainWindow();
+            var mainWindow = new MainWindow(_bm, _user);
             mainWindow.Show();
             Close();
         }

@@ -16,5 +16,6 @@ namespace BookingApplication.Models
         public int HotelId { get; set; }
         public DateTime DateOfArrive { get; set; }
         public DateTime DateOfDeparture { get; set; }
+        public decimal TotalPayment { get; set; }
     }
 }

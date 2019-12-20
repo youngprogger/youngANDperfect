@@ -18,6 +18,12 @@ namespace BookingApplication
         public List<Accommodation> GetAllAccommodations() => _context.Accomodations.ToList();
         public List<Hotel> GetAllHotels() => _context.Hotels.ToList();
         public List<User> GetAllUsers() => _context.Users.ToList();
+        public void AddAccommmodation(Accommodation accomodation)
+        {
+            _context.Accomodations.Add(accomodation);
+            _context.SaveChanges();
+        }
+
         public void AddAccomodation(Accommodation newAccommodation)
         {
             _context.Accomodations.Add(newAccommodation);

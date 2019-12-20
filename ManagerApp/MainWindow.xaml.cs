@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BookingApplication;
+using BookingApplication.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,25 +21,25 @@ namespace ManagerApp
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
-    {
+    {   BookingManager booking;
+        User user;
+        Hotel hotel;
+        Accommodation acccommodation;
         public MainWindow()
         {
             InitializeComponent();
-        }
+            this.booking = new BookingManager();
+            this.user = new User();
+            Users_List.ItemsSource = booking.GetAllUser();
+            AllHotels_List.ItemsSource = booking.GetAllHotels();
+            var allAccomodations = booking.GetAllAccommodations();
+            BusyHotels_List.ItemsSource = booking.GetAllHotels().Where(h => allAccomodations.Any(a => a.HotelId == h.Id));
+            Total_Gain.Text = booking.GetAllAccommodations().Sum(a => a.TotalPayment).ToString(); 
 
-        private void Users_List_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
 
-        }
-
-        private void BusyHotels_List_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
-        private void AllHotels_List_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
 
         }
+
+        
     }
 }

@@ -1,4 +1,5 @@
 ﻿using BookingApplication;
+using BookingApplication.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -19,6 +20,7 @@ namespace ClientApp
     public partial class Booking : Window
     {
         BookingManager _bm;
+        User user;
         public Booking(BookingManager bookingManager)
         {
             InitializeComponent();
@@ -28,7 +30,7 @@ namespace ClientApp
         private void Search_Button_Click(object sender, RoutedEventArgs e)
         { 
             Hide();
-            var mainWindow = new MainWindow();
+            var mainWindow = new MainWindow(_bm, user);
             mainWindow.Show();
             Close();
         }
@@ -36,7 +38,7 @@ namespace ClientApp
         private void SingIn_Button_Click(object sender, RoutedEventArgs e)
         {
             Hide();
-            var signInWin = new SignIn(_bm);
+            var signInWin = new SignIn();
             signInWin.Show();
             Close();
         }
@@ -44,9 +46,14 @@ namespace ClientApp
         private void _SignIn_Button_Click(object sender, RoutedEventArgs e)
         {
             Hide();
-            var signInWin = new SignIn(_bm);
+            var signInWin = new SignIn();
             signInWin.Show();
             Close();
+        }
+
+        private void Bookings_Button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

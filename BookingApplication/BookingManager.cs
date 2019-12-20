@@ -5,9 +5,6 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using DocumentFormat.OpenXml.Spreadsheet;
 using BookingApplication.Models;
 
@@ -63,5 +60,14 @@ namespace BookingApplication
         public List<Hotel> GetHotelsByCityAndCountry(int CountryId, int CityId) => Repository.GetAllHotels().Where(h => h.CountryId == CountryId && h.CityId == CityId).ToList();
         public Hotel GetHotelByCityCountryName(int CityId, int CountryId, string Name) => Repository.GetAllHotels().Find(h => h.CityId == CityId && h.CountryId == CountryId && h.Name == Name);
         public List<Accommodation> GetAllAccomodationsByUser(int UserId) => Repository.GetAllAccommodations().Where(a => a.UserId == UserId).ToList();
+        public List<User> GetAllUser() => Repository.GetAllUsers().ToList();
+        public void AddAccommodation(Accommodation newAccommodation)
+        {
+            Repository.AddAccomodation(newAccommodation);
+        }
+        public List<Hotel> GetAllHotels() => Repository.GetAllHotels().ToList();
+        public List<Accommodation> GetAllAccommodations() => Repository.GetAllAccommodations().ToList();
+
+
     }
 }
